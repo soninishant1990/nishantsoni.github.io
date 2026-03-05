@@ -3,40 +3,53 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>CV | Nishant Kumar Soni</title>
+  <title>Nishant Kumar Soni | CV</title>
   <style>
     :root { --max: 980px; --muted:#555; --line:#e6e6e6; }
-    body {
+    body{
       font-family: Arial, Helvetica, sans-serif;
       margin: 0;
       color: #111;
       line-height: 1.55;
-      background: linear-gradient(120deg, #f5f7ff, #f7fbff, #ffffff);   /* page background */
+      background: linear-gradient(120deg, #f5f7ff, #f7fbff, #ffffff);
     }
-    header { border-bottom: 1px solid var(--line); }
-    .wrap {
+    header{ border-bottom: 1px solid var(--line); }
+    .wrap{
       max-width: var(--max);
       margin: 28px auto;
       padding: 28px 22px;
-      background: #ffffff;     /* CV card background */
+      background: #ffffff;
       border: 1px solid var(--line);
       border-radius: 14px;
       box-shadow: 0 8px 26px rgba(0,0,0,0.06);
     }
-    h1 { margin: 0 0 6px; font-size: 34px; }
-    .subtitle { margin: 0; color: var(--muted); font-size: 16px; }
-    .toplinks a { margin-right: 10px; }
-    nav { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--line); }
-    nav a { margin-right: 14px; text-decoration: none; }
-    section { padding: 16px 0; border-bottom: 1px solid var(--line); }
-    h2 { margin: 0 0 8px; font-size: 20px; }
-    h3 { margin: 14px 0 6px; font-size: 16px; }
-    .meta { color: var(--muted); font-size: 14px; margin: 0 0 6px; }
-    ul { margin: 8px 0 0 18px; }
-    .pill { display:inline-block; border:1px solid var(--line); padding: 2px 8px; border-radius: 999px; margin: 4px 6px 0 0; font-size: 13px; color:#222; }
-    footer { color: var(--muted); font-size: 13px; padding: 18px 0 30px; }
-    .two-col { display: grid; grid-template-columns: 1fr; gap: 10px; }
-    @media (min-width: 860px) { .two-col { grid-template-columns: 1.2fr 0.8fr; } }
+    h1{ margin: 0 0 6px; font-size: 34px; }
+    .subtitle{ margin: 0; color: var(--muted); font-size: 16px; }
+    .toplinks a{ margin-right: 10px; }
+    nav{ margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--line); }
+    nav a{ margin-right: 14px; text-decoration: none; }
+    nav a:hover{ text-decoration: underline; }
+    section{ padding: 16px 0; border-bottom: 1px solid var(--line); }
+    h2{ margin: 0 0 8px; font-size: 20px; }
+    h3{ margin: 14px 0 6px; font-size: 16px; }
+    .meta{ color: var(--muted); font-size: 14px; margin: 0 0 6px; }
+    ul{ margin: 8px 0 0 18px; }
+    ol{ margin: 8px 0 0 18px; }
+    .pill{
+      display:inline-block;
+      border:1px solid var(--line);
+      padding: 2px 8px;
+      border-radius: 999px;
+      margin: 4px 6px 0 0;
+      font-size: 13px;
+      color:#222;
+    }
+    footer{ color: var(--muted); font-size: 13px; padding: 18px 0 30px; }
+    .two-col{ display:grid; grid-template-columns: 1fr; gap: 10px; }
+    @media (min-width: 860px){ .two-col{ grid-template-columns: 1.2fr 0.8fr; } }
+    details{ margin-top: 10px; }
+    summary{ cursor: pointer; color:#111; }
+    code{ background:#f3f3f3; padding: 2px 6px; border-radius: 6px; }
   </style>
 </head>
 
@@ -50,16 +63,16 @@
       <a href="index.html">Home</a> |
       <a href="Nishant_Kumar_Soni_CV.pdf">Download CV (PDF)</a> |
       <a href="https://github.com/soninishant1990" target="_blank" rel="noopener">GitHub</a> |
-      <a href="https://www.linkedin.com/in/dr-nishant-kumar-soni-528b1937" target="_blank" rel="noopener">LinkedIn</a> |
-      <a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://www.linkedin.com/in/nishant-k-soni-ph-d-528b1937/" target="_blank" rel="noopener">LinkedIn</a> |
+      <a href="https://scholar.google.com/citations?user=PqmaQ-cAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
     </p>
 
     <nav>
       <a href="#summary">Summary</a>
       <a href="#skills">Skills</a>
       <a href="#experience">Experience</a>
-      <a href="#education">Education</a>
       <a href="#publications">Publications</a>
+      <a href="#education">Education</a>
       <a href="#tools">Open-source</a>
       <a href="#awards">Awards</a>
       <a href="#training">Training</a>
@@ -138,52 +151,102 @@
     <h3>Icahn School of Medicine at Mount Sinai, NY — Bioinformatician</h3>
     <p class="meta">Jan 2025 – Present</p>
 
-    <h3>Icahn School of Medicine at Mount Sinai, NY — Postdoctoral Fellow (Computational Biology)</h3>
+    <h3>Icahn School of Medicine at Mount Sinai, NY — Postdoctoral Fellow, Computational Biology</h3>
     <p class="meta">Jan 2022 – Jan 2025</p>
 
-    <h3>Broad Institute of MIT and Harvard — Visiting Postdoctoral Scholar (Remote)</h3>
+    <h3>Broad Institute of MIT and Harvard, Cambridge, MA — Visiting Postdoctoral Scholar (Remote)</h3>
     <p class="meta">Jan 2022 – Feb 2025</p>
 
     <ul>
       <li>Analyze single-cell and spatial multi-omics in glioblastoma (GBM) and pediatric HGG; integrate scRNA-seq with Visium to dissect tumor–immune interactions.</li>
-      <li>Built reusable R/Python pipelines for QC, normalization, integration, annotation, and standardized figure generation for manuscripts.</li>
-      <li>Key studies: Nature Communications 2023; Immunity 2024; Brain 2025; JCI 2025.</li>
+      <li>Discovery that monocyte depletion drives compensatory neutrophil influx and PN→MES transition in GBM (Nature Communications 2023).</li>
+      <li>Study characterizing microglia/monocyte-derived macrophages in pediatric HGG shaped by histone mutations; led single-cell analysis comparisons across genotypes (Immunity 2024).</li>
+      <li>GBM subtype heterogeneity using genotype-specific models (NF1, EGFR, PDGFB) (Brain 2025).</li>
+      <li>Built reusable R/Python scripts, notebooks & QC pipelines for data ingestion, normalization, integration, and visualization; standardized figure generation for manuscripts.</li>
     </ul>
 
-    <h3>Selected Projects</h3>
-    <ul>
-      <li><b>JCI (2025):</b> Mismatch repair deficiency drives malignant progression and alters the tumor immune microenvironment in GBM models. DOI: <a href="https://doi.org/10.1172/JCI195189" target="_blank" rel="noopener">10.1172/JCI195189</a></li>
-      <li><b>Brain (2025):</b> Single-cell dissection of genotype–immunophenotype in GBM. DOI: <a href="https://doi.org/10.1093/brain/awaf129" target="_blank" rel="noopener">10.1093/brain/awaf129</a></li>
-      <li><b>Immunity (2024):</b> Microglia and monocyte-derived macrophages in pediatric HGG shaped by histone mutations. DOI: <a href="https://doi.org/10.1016/j.immuni.2024.09.007" target="_blank" rel="noopener">10.1016/j.immuni.2024.09.007</a></li>
-      <li><b>Nat Commun (2023):</b> Monocyte depletion enhances neutrophil influx and PN→MES transition in GBM. DOI: <a href="https://doi.org/10.1038/s41467-023-37361-8" target="_blank" rel="noopener">10.1038/s41467-023-37361-8</a></li>
-    </ul>
-
-    <h3>Pennsylvania State University, PA — Postdoctoral Scholar (Computational Biology)</h3>
+    <h3>Pennsylvania State University, PA — Postdoctoral Scholar, Computational Biology</h3>
     <p class="meta">Jan 2020 – Jan 2022</p>
     <ul>
       <li>Developed Python pipeline for Ribo-seq A-site identification and downstream analyses; co-authored RiboA web application (BMC Bioinformatics 2021).</li>
+      <li>Generated ML-ready datasets to study how amino acid/tRNA context modulates translation elongation speed.</li>
     </ul>
 
-    <h3>THSTI, India — Research Associate (Bioinformatics)</h3>
+    <details>
+      <summary><b>Summary (Penn State)</b></summary>
+      <p>
+        Proteins can fold during their synthesis by ribosome through the process of co-translational folding. Such co-translational
+        folding occurs out of equilibrium, meaning thereby the speed of translation can drastically influence the ability of proteins
+        to fold and function. Changes to translation speed can prevent folding, increase misfolding, can cause aggregate formation,
+        and are implicated as causal factors in cystic fibrosis, hemophilia, and certain cancers. Most protein structure prediction
+        methods do not consider the biological process of translation when making predictions and thus neglect the influence of
+        translation speed. I am working on how different combinations of molecules (Amino acid, tRNA, and Codon) present at A-site,
+        P-site, and E-site of ribosome influence the translation elongation rate at A-site through the ribosome profiling dataset.
+        We have developed a new method to see how P and E site molecules show the synergetic effect at the A-site to regulate the speed.
+        I have developed a pipeline in Python for analysis (<a href="https://github.com/obrien-lab/A-P-and-E-site-analysis" target="_blank" rel="noopener">GitHub</a>).
+        This pipeline contains multiple steps.
+      </p>
+      <ol>
+        <li>Raw fastq file - Download fastq file from SRA server</li>
+        <li>Processed fastq file - Filter out low-quality reads. Many tools are available to filter the process. We used Standard processed which is given into respected research paper</li>
+        <li>Alignment - The processed reads were first aligned to the ribosomal RNA sequences using Bowtie 2 (v2.2.5). The unaligned reads were then aligned to the Saccharomyces cerevisiae assembly (UCSC: sacCer3) using Tophat (v2.1.1)</li>
+        <li>A-site profile - A-site profile generated through in-house generated webtool 'Ribo-Seq A-site Identifier' (https://a-site.vmhost.psu.edu/)</li>
+        <li>Robust analysis in multiple datasets - This part is done by an in-house generated script.</li>
+      </ol>
+      <p>
+        Simultaneously, I have generated data for a machine learning project for biophysical model development of amino acid and tRNA
+        effects on translation-elongation speed.
+      </p>
+    </details>
+
+    <h3>Translational Health Science & Technology Institute (THSTI), India — Research Associate, Bioinformatics</h3>
     <p class="meta">Nov 2018 – Dec 2019</p>
     <ul>
-      <li>Integrated proteomics search engines; built ML approach to separate correct vs decoy PSMs; contributed Python tooling and documentation.</li>
+      <li>Integrated multiple proteomics search engines; built ML approach (k-means) to distinguish correct vs decoy PSMs; contributed Python tooling and documentation.</li>
     </ul>
+
+    <details>
+      <summary><b>Summary (THSTI)</b></summary>
+      <p>
+        Integrating multiple proteomics search algorithms in a unified framework for the time efficient large scale analysis.
+        Developing a new tool for peptide identification from calculated mass and intensity.
+      </p>
+      <p><b>I worked on two projects:</b></p>
+      <p>
+        <b>1)</b> Combining multiple peptide identification search tool (OMSSA, X!Tandem, MassWizz, MSGF+) into one framework.
+        Many of the tools are available in which multiple search engines are integrated but the very novel thing in our project is
+        that we are integrating only the search engine algorithm. Henceforth, creating theoretical spectra from the database and
+        reading spectra file that will be common part and after peptide identification, we are integrating the combined FDR process.
+        Therefore, this tool will be far faster than the other tools. This project has been divided into many small objectives.
+        I integrated the OMSSA and X!Tandem tools.
+      </p>
+      <p>
+        <b>2)</b> The second objective was to calculate the q value to separate out correct and incorrect PSM (Peptide Spectrum Matches).
+        For this, we generate decoy PMS also. I was working on separating out correct PSM from decoy PSM with the help of the machine
+        learning method (k-mean clustering method)
+        (<a href="https://github.com/soninishant1990/Parameter-calcualate-form-proteomics-data-for-machine-learning" target="_blank" rel="noopener">GitHub 1</a>)
+        (<a href="https://github.com/soninishant1990/Clustering-method-to-calculate-FDR-for-proteomics-data" target="_blank" rel="noopener">GitHub 2</a>).
+      </p>
+    </details>
 
     <h3>ROSE Genomics, Beijing, China — Bioinformatician</h3>
     <p class="meta">Jun 2018 – Oct 2018</p>
     <ul>
       <li>Implemented NGS pipelines for HLA typing and WGS/WES; automated reporting; collaborated with clinical partners for transplant matching.</li>
     </ul>
-  </section>
 
-  <section id="education">
-    <h2>Education</h2>
-    <ul>
-      <li><b>PhD, Bioinformatics</b> — Maulana Azad National Institute of Technology (MANIT), India (2019)</li>
-      <li><b>MTech, Biotechnology</b> — Rajiv Gandhi Technical University (RGTU), India (2014)</li>
-      <li><b>BTech, Bioinformatics</b> — Amity University Rajasthan (AUR), India (2012)</li>
-    </ul>
+    <details>
+      <summary><b>Summary (ROSE Genomics)</b></summary>
+      <p>
+        NGS data analysis aids at the genomics level, I have worked in China as a Bioinformatician, during which I gained experience
+        over it more thoroughly. There I handled large-scale NGS data (DNA-seq), with two main responsibilities. First was, I was doing
+        HLA typing analysis from NGS data. The company where I was working, they have the blood samples from the hospitals for HLA typing
+        analysis that data in turn was utilized for organ transplantation after the generation of large-scale NGS data. Overall, my task
+        was the analysis of HLA typing analysis. The second was that, I was handling a project in which I was developing a tool on python
+        for HLA typing analysis from NGS data. There, I developed a pipeline for NGS data analysis. After that, I was assigned to develop
+        an HLA typing analysis algorithm, which was going to be integrated into the pipeline.
+      </p>
+    </details>
   </section>
 
   <section id="publications">
@@ -196,6 +259,15 @@
       <li>RiboA: a web application to identify ribosome A-site locations in ribosome profiling data (BMC Bioinformatics, 2021). <a href="https://doi.org/10.1186/s12859-021-04068-w" target="_blank" rel="noopener">DOI</a></li>
     </ul>
     <p class="meta">Full list available on Google Scholar.</p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><b>PhD, Bioinformatics</b> — Maulana Azad National Institute of Technology (MANIT), India (2019)</li>
+      <li><b>MTech, Biotechnology</b> — Rajiv Gandhi Technical University (RGTU), India (2014)</li>
+      <li><b>BTech, Bioinformatics</b> — Amity University Rajasthan (AUR), India (2012)</li>
+    </ul>
   </section>
 
   <section id="tools">
@@ -229,12 +301,23 @@
   </section>
 
   <section id="conferences">
-    <h2>Workshops / Seminars / Conferences (selected)</h2>
+    <h2>Workshops / Seminars / Conferences</h2>
     <ul>
-      <li>Mount Sinai GGS Retreat 2025 — Poster</li>
-      <li>Mount Sinai Friedman Brain Institute Neuroscience Retreat 2025 — Poster</li>
-      <li>Proteomics Society India 2019 — Poster</li>
-      <li>NIBMG & EMBL workshop on genomic scale data analysis (2018)</li>
+      <li>Mount Sinai – GGS (Genomics and genetics science) Retreat 2025 – Poster presentation</li>
+      <li>Mount Sinai – FBI (The Friedman Brain Institute), 17th Annual Neuroscience retreat 2025 – Poster presentation</li>
+      <li>11th Annual Meeting of Proteomics Society, India, 2019 and International Conference on Proteomics for System Integrated Bio-Omics, One Health and Food Safety, Karnal, Haryana, India, 132001 (Poster presented)</li>
+      <li>Attended workshop on Analysis of genomic scale data from bulk and single-cell sequencing from 19th to 23rd Nov 2018. Organize by NIBMG, Kolkata and EMBL, London.</li>
+      <li>Poster exhibited on research scholar day on 21st Jan 2018 organized by MANIT, Bhopal, India</li>
+      <li>Workshop- Next Generation Sequencing (NGS): A Discussion Forum towards Whole Genome Sequencing and DNA Library Preparation, Madhya Pradesh Council of Science and Technology, Bhopal.</li>
+      <li>Workshop- Project Proposal Formulation, joint session Research Methodology and Scientific Paper Writing, Madhya Pradesh Council of Science and Technology, Bhopal, Madhya Pradesh, India</li>
+      <li>Workshop- “Cell culture based laboratory assays for oncology research” conducted by department of research & training, BMHRC, Bhopal.</li>
+      <li>Workshop- “Recent advances in clinical research” organized By Pharmanext and Sear Pharma.</li>
+      <li>International Seminar- Emerging Frontiers in Drug Discovery and Development, Rajiv Gandhi Technical University, Bhopal.</li>
+      <li>Attended National Seminar on Innovations in Science and Technology for Inclusive Development.</li>
+      <li>Attended All India Seminar on Recent Advances in Biotechnology & Human Health care, Bhopal</li>
+      <li>National seminar on “Recent trends in Alternative Automotive fuels” at RGTU, Bhopal</li>
+      <li>Short Term Training Programme on Artificial Intelligence in Bioinformatics, Maulana Azad National Institute of Technology, Bhopal, Madhya Pradesh, India</li>
+      <li>Certificate course on environmental awareness “Air & water – issues and challenges” organized by EPCO, Bhopal.</li>
     </ul>
   </section>
 
